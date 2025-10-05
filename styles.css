@@ -1,2 +1,11 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;
+  flex-wrap: wrap;                /* allow items to wrap to next line */
+  justify-content: space-between; /* first item at start, last at end, equal space in between */
+}
+
+.item {
+  flex: 0 0 auto;                 /* prevent squashing (no shrinking) */
+}
